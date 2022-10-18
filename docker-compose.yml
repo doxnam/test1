@@ -1,0 +1,8 @@
+services:
+  app:
+    container_name: research3
+    build:
+      context: ./dist
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
